@@ -930,7 +930,7 @@ Specifies URL of the form to load in the Start a Site dialog.
 
 The valid values are:
 "" (default) - Blank by default, this will also remove or clear any value that has been set.
-Full URL - Example: "https://contoso.sharepoint.com/path/to/form"
+Full URL - Example: "<https://contoso.sharepoint.com/path/to/form>"
 
 ```yaml
 Type: String

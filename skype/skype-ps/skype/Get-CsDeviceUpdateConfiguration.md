@@ -104,8 +104,8 @@ Accept wildcard characters: False
 
 ### -Filter
 Provides a way for you to use wildcard characters when specifying device update configuration settings.
-For example, to return a collection of all the configuration settings that have been applied at the site scope, use this syntax: -Filter "site:*".
-To return all the settings that have the term "EMEA" in their Identity, use this syntax: -Filter "*EMEA*".
+For example, to return a collection of all the configuration settings that have been applied at the site scope, use this syntax: -Filter "site:<em>".
+To return all the settings that have the term "EMEA" in their Identity, use this syntax: -Filter "</em>EMEA*".
 Note that the Filter parameter acts only on the Identity of the settings; you cannot filter on other device update configuration properties.
 
 ```yaml

@@ -49,11 +49,10 @@ Skype for Business Server Control Panel: The functions carried out by the New-Cs
 ```
 
 New-CsReportingConfiguration -Identity "service:MonitoringDatabase:atl-sql-001.litwareinc.com" -ReportingUrl "https://atl-sql-001.litwareinc.com/lync_reports"
-
 ```
 
 The command shown in Example 1 creates a new collection of reporting configuration settings assigned to the monitoring database with the identity service:MonitoringDatabase:atl-sql-001.litwareinc.com.
-In this example, the value of the ReportingUrl property is set to "https://atl-sql-001.litwareinc.com/lync_reports".
+In this example, the value of the ReportingUrl property is set to "<https://atl-sql-001.litwareinc.com/lync_reports>".
 
 ## PARAMETERS
 

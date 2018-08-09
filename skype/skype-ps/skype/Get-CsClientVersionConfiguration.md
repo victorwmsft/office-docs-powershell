@@ -112,8 +112,8 @@ Accept wildcard characters: False
 
 ### -Filter
 Enables you to use wildcard characters in order to return a collection (or collections) of client version configuration settings.
-To return a collection of all the settings configured at the site scope, use this syntax: -Filter site:*.
-To return a collection of all the settings that have the string value "EMEA" somewhere in their Identity (the only property you can filter for) use this syntax: -Filter *EMEA*.
+To return a collection of all the settings configured at the site scope, use this syntax: -Filter site:<em>.
+To return a collection of all the settings that have the string value "EMEA" somewhere in their Identity (the only property you can filter for) use this syntax: -Filter *EMEA</em>.
 
 ```yaml
 Type: String

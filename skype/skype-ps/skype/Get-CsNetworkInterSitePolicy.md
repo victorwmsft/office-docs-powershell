@@ -55,7 +55,7 @@ Get-CsNetworkInterSitePolicy -Filter *Reno*
 ```
 
 Example 3 retrieves all network site policies that have the string Reno anywhere within the Identity value.
-The wildcard characters (*) within the value passed to the Filter parameter signify "any character or set of characters." In other words, the string *Reno* will match Identity values that begin with any character or characters, followed by the string Reno, followed by any character or characters.
+The wildcard characters (<em>) within the value passed to the Filter parameter signify "any character or set of characters." In other words, the string *Reno</em> will match Identity values that begin with any character or characters, followed by the string Reno, followed by any character or characters.
 
 
 

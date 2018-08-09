@@ -199,7 +199,7 @@ Accept wildcard characters: False
 ```
 
 ### -SharePointUrl
-The SharePointUrl parameter specifies the URL of the SharePoint site, for example, "https://myserver/teams/edu".
+The SharePointUrl parameter specifies the URL of the SharePoint site, for example, "<https://myserver/teams/edu>".
 
 ```yaml
 Type: Uri

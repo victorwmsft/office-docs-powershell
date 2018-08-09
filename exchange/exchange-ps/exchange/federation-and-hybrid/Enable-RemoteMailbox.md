@@ -29,7 +29,6 @@ Enable-RemoteMailbox [-Identity] <UserIdParameter> [-RemoteRoutingAddress <Proxy
 Enable-RemoteMailbox [-Identity] <UserIdParameter> [-Room] [-ACLableSyncedObjectEnabled] [-Alias <String>]
  [-DisplayName <String>] [-DomainController <Fqdn>] [-PrimarySmtpAddress <SmtpAddress>]
  [-RemoteRoutingAddress <ProxyAddress>] [-Confirm] [-WhatIf] [<CommonParameters>]
- 
 ```
 
 ### Equipment

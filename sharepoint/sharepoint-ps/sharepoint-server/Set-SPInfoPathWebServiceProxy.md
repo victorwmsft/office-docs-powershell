@@ -40,7 +40,7 @@ This example sets the Web service proxy for a Web application.
 ### -Identity
 Specifies the SharePoint Web service application proxy to update.
 
-The type must be a valid URL, in the form http://server_name; a valid name of a Web application (for example, WebApp1); a valid GUID, in the form 12345678-90ab-cdef-1234-567890bcdefgh; or an instance of a valid SPWebServiceProxy object.
+The type must be a valid URL, in the form <http://server_name>; a valid name of a Web application (for example, WebApp1); a valid GUID, in the form 12345678-90ab-cdef-1234-567890bcdefgh; or an instance of a valid SPWebServiceProxy object.
 
 ```yaml
 Type: SPWebServiceProxyPipeBind

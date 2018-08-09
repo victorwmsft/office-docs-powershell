@@ -19,7 +19,6 @@ $adminUPN="<the full email address of a SharePoint administrator account, exampl
 $orgName="<name of your Office 365 organization, example: contosotoycompany>"
 $userCredential = Get-Credential -UserName $adminUPN -Message "Type the password."
 Connect-SPOService -Url https://$orgName-admin.sharepoint.com -Credential $userCredential
-
 ```
 
 2. When prompted with the Windows PowerShell credential request dialog box, type the password for the SharePoint Online SharePoint administrator account.

@@ -39,7 +39,7 @@ You can't run this cmdlet from the Shell. Use SharePoint to create a site mailbo
 ## PARAMETERS
 
 ### -SharePointUrl
-The SharePointUrl parameter specifies the SharePoint URL where the site mailbox is hosted, for example, "https://myserver/teams/edu".
+The SharePointUrl parameter specifies the SharePoint URL where the site mailbox is hosted, for example, "<https://myserver/teams/edu>".
 
 ```yaml
 Type: Uri

@@ -19,7 +19,7 @@ Add-PnPStoredCredential -Name <String>
 ## DESCRIPTION
 Adds an entry to the Windows Credential Manager. If you add an entry in the form of the URL of your tenant/server PnP PowerShell will check if that entry is available when you connect using Connect-PnPOnline. If it finds a matching URL it will use the associated credentials.
 
-If you add a Credential with a name of "https://yourtenant.sharepoint.com" it will find a match when you connect to "https://yourtenant.sharepoint.com" but also when you connect to "https://yourtenant.sharepoint.com/sites/demo1". Of course you can specify more granular entries, allow you to automatically provide credentials for different URLs.
+If you add a Credential with a name of "<https://yourtenant.sharepoint.com>" it will find a match when you connect to "<https://yourtenant.sharepoint.com>" but also when you connect to "<https://yourtenant.sharepoint.com/sites/demo1>". Of course you can specify more granular entries, allow you to automatically provide credentials for different URLs.
 
 ## EXAMPLES
 

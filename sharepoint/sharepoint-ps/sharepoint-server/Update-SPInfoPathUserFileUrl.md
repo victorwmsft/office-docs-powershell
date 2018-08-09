@@ -75,7 +75,7 @@ Accept wildcard characters: False
 ### -Site
 Specifies the parent site collection where the update will start.
 
-The type must be a valid GUID, in the form 12345678-90ab-cdef-1234-567890bcdefgh; a valid URL, in the form http://sites/example; or an instance of a valid SPSite object.
+The type must be a valid GUID, in the form 12345678-90ab-cdef-1234-567890bcdefgh; a valid URL, in the form <http://sites/example>; or an instance of a valid SPSite object.
 
 ```yaml
 Type: SPSitePipeBind
@@ -93,7 +93,7 @@ Accept wildcard characters: False
 ### -WebApplication
 Specifies the parent SharePoint Web application where the update will start.
 
-The type must be a valid URL, in the form http://server_name; a valid GUID, in the form 12345678-90ab-cdef-1234-567890bcdefgh; a valid name of SharePoint Web application (for example, MyOfficeApp1); or an instance of a valid SPWebApplication object
+The type must be a valid URL, in the form <http://server_name>; a valid GUID, in the form 12345678-90ab-cdef-1234-567890bcdefgh; a valid name of SharePoint Web application (for example, MyOfficeApp1); or an instance of a valid SPWebApplication object
 
 ```yaml
 Type: SPWebApplicationPipeBind

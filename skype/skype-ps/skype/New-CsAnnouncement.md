@@ -82,7 +82,6 @@ You can add audio files to the File Store by calling the Import-CsAnnouncementFi
 ```
 
 New-CsAnnouncement -Identity ApplicationServer:redmond.litwareinc.com -Name "Forward Announcement" -AudioFilePrompt "WelcomeMessage.wav" -TargetUri sip:kmyer@litwareinc.com
-
 ```
 
 Like Example 2, this example creates an announcement that plays an audio file when the number is reached.

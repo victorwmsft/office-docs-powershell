@@ -44,7 +44,6 @@ To retrieve these settings, run this command: (Get-CsNetworkConfiguration).Media
 $a = New-CsNetworkMediaBypassConfiguration -AlwaysBypass $true -Enabled $true
 
 Set-CsNetworkConfiguration -MediaBypassSettings $a
-
 ```
 
 The commands in this example enable media bypass and configure it to always attempt bypass.

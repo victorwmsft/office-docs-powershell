@@ -557,7 +557,7 @@ Valid syntax for this parameter is \<Type\>:\<AddressFormat\>:
 
 - \<Type\>: A valid email address type as described in the "Address types" section in Email address policies in Exchange 2016 (https://technet.microsoft.com/library/bb232171.aspx). For example, smtp or X400. Note that you can't use SMTP to specify a disabled primary SMTP email address.
 
-- \<AddressFormat\>: For SMTP email addresses, a domain or subdomain that's configured as accepted domain (authoritative or internal relay), and valid variables and ASCII text characters as described in the "Address formats" section in Email address policies in Exchange 2016 (https://technet.microsoft.com/library/bb232171.aspx). For example: \<alias\>@contoso.com requires the value %m@contoso.com, and \<firstname\>.\<lastname\>@contoso.com requires the value %g.%s@contoso.com.
+- \<AddressFormat\>: For SMTP email addresses, a domain or subdomain that's configured as accepted domain (authoritative or internal relay), and valid variables and ASCII text characters as described in the "Address formats" section in Email address policies in Exchange 2016 (<https://technet.microsoft.com/library/bb232171.aspx>). For example: \<alias\>@contoso.com requires the value %m@contoso.com, and \<firstname\>.\<lastname\>@contoso.com requires the value %g.%s@contoso.com.
 
 You can specify multiple disabled email address templates separated by commas: "[\<Type1\>]:\<EmailAddress1\>","[\<Type2\>]:\<EmailAddress2\>",..."[\<TypeN\>]:\<EmailAddressN\>".
 
@@ -599,7 +599,7 @@ Valid syntax for this parameter is \<Type\>:\<AddressFormat\>:
 
 - \<Type\>: A valid email address type as described in "Address types" section in Email address policies in Exchange 2016 (https://technet.microsoft.com/library/bb232171.aspx). For example, SMTP for the primary email address, and smtp for proxy addresses.
 
-- \<AddressFormat\>: For SMTP email addresses, a domain or subdomain that's configured as accepted domain (authoritative or internal relay), and valid variables and ASCII text characters as described in the "Address formats" section in Email address policies in Exchange 2016 (https://technet.microsoft.com/library/bb232171.aspx). For example: \<alias\>@contoso.com requires the value %m@contoso.com, and \<firstname\>.\<lastname\>@contoso.com requires the value %g.%s@contoso.com.
+- \<AddressFormat\>: For SMTP email addresses, a domain or subdomain that's configured as accepted domain (authoritative or internal relay), and valid variables and ASCII text characters as described in the "Address formats" section in Email address policies in Exchange 2016 (<https://technet.microsoft.com/library/bb232171.aspx>). For example: \<alias\>@contoso.com requires the value %m@contoso.com, and \<firstname\>.\<lastname\>@contoso.com requires the value %g.%s@contoso.com.
 
 This parameter requires at least one template with the \<Type\> value SMTP (to define the primary SMTP email address). After that, if you don't include a \<Type\> prefix for a template, the value smtp (an SMTP proxy address) is assumed.
 
@@ -624,7 +624,7 @@ Accept wildcard characters: False
 ### -EnabledPrimarySMTPAddressTemplate
 The EnabledPrimarySMTPAddressTemplate parameter specifies the specifies the rule in the email address policy that's used to generate the primary SMTP email addresses for recipients. You can use this parameter instead of the EnabledEmailAddressTemplates if the policy only applies the primary email address and no additional proxy addresses.
 
-Valid syntax for this parameter is a domain or subdomain that's configured as an authoritative accepted domain, and valid variables and ASCII text characters as described in the "Address format" section in Email address policies in Exchange 2016 (https://technet.microsoft.com/library/bb232171.aspx). For example: \<alias\>@contoso.com requires the value %m@contoso.com, and \<firstname\>.\<lastname\>@contoso.com requires the value %g.%s@contoso.com.
+Valid syntax for this parameter is a domain or subdomain that's configured as an authoritative accepted domain, and valid variables and ASCII text characters as described in the "Address format" section in Email address policies in Exchange 2016 (<https://technet.microsoft.com/library/bb232171.aspx>). For example: \<alias\>@contoso.com requires the value %m@contoso.com, and \<firstname\>.\<lastname\>@contoso.com requires the value %g.%s@contoso.com.
 
 You can't use this parameter with the EnabledEmailAddressTemplates parameter.
 

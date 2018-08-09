@@ -53,7 +53,7 @@ This example returns the service context for a site in a hosted environment.
 ### -Site
 Returns the service context for only the Web application that contains the specified site collection.
 
-The type must be a valid GUID, in the form 12345678-90ab-cdef-1234-567890bcdefgh; a valid URL, in the form http://server_name; or an instance of a valid SPSite object.
+The type must be a valid GUID, in the form 12345678-90ab-cdef-1234-567890bcdefgh; a valid URL, in the form <http://server_name>; or an instance of a valid SPSite object.
 
 ```yaml
 Type: SPSitePipeBind

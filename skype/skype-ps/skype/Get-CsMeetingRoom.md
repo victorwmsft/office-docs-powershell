@@ -132,8 +132,8 @@ Meeting room Identities are typically specified using one of four formats: 1) th
 
 You can also reference a room account by using the room's Active Directory distinguished name.
 
-You can use the asterisk (*) wildcard character when using the Display Name as the room Identity.
-For example, the Identity "*Redmond*" returns all the rooms that have a display name that includes the string value "Redmond".
+You can use the asterisk (<em>) wildcard character when using the Display Name as the room Identity.
+For example, the Identity "</em>Redmond*" returns all the rooms that have a display name that includes the string value "Redmond".
 
 ```yaml
 Type: UserIdParameter

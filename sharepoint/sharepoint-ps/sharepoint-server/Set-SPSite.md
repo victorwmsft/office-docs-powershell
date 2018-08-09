@@ -65,7 +65,7 @@ This example configures the Quota settings for the site collection http://sitena
 ### -Identity
 Specifies the URL or GUID of the site collection to configure, or refers to an SPSite object that contains sites to configure.
 
-The type must be a valid URL, in the form http://server_name; a valid GUID, in the form 12345678-90ab-cdef-1234-567890bcdefgh; or an SPSite object.
+The type must be a valid URL, in the form <http://server_name>; a valid GUID, in the form 12345678-90ab-cdef-1234-567890bcdefgh; or an SPSite object.
 
 ```yaml
 Type: SPSitePipeBind

@@ -121,7 +121,7 @@ Accept wildcard characters: False
 ### -WebApplication
 Specifies the URL, GUID, or name of the Web application from which to list sites.
 
-The type must be a valid URL in the form http://server_name; a valid GUID, for example, 12345678-90ab-cdef-1234-567890bcdefgh; or the Web application name, for example, WebApplication1212.
+The type must be a valid URL in the form <http://server_name>; a valid GUID, for example, 12345678-90ab-cdef-1234-567890bcdefgh; or the Web application name, for example, WebApplication1212.
 
 ```yaml
 Type: SPWebApplicationPipeBind

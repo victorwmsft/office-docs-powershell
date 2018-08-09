@@ -55,7 +55,7 @@ This example updates the address of the data connection library for the entry ht
 ### -Identity
 Specifies the DataConnectionLibrary object to update.
 
-The type must be a valid GUID, in the form 12345678-90ab-cdef-1234-567890bcdefgh; a valid name of a data connection library (for example, DataConnectionLib1); a valid URL, in the form http://server_name; or an instance of a valid SPExcelDCL object.
+The type must be a valid GUID, in the form 12345678-90ab-cdef-1234-567890bcdefgh; a valid name of a data connection library (for example, DataConnectionLib1); a valid URL, in the form <http://server_name>; or an instance of a valid SPExcelDCL object.
 
 ```yaml
 Type: SPExcelDCLPipeBind

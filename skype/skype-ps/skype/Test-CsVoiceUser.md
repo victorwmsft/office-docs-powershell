@@ -50,7 +50,7 @@ This example then pipes the collection of users to the `ForEach-Object` cmdlet.
 This cmdlet will look at each individual user object and perform the actions we've specified within curly braces ({}).
 
 The first action is to output the display name of the current user.
-(The current user is represented by the $_ characters; thus the display name is in the DisplayName property of $_.) We now can see which user account we're testing.
+(The current user is represented by the $<em> characters; thus the display name is in the DisplayName property of $</em>.) We now can see which user account we're testing.
 Next we call the `Test-CsVoiceUser` cmdlet, passing it the DialedNumber ("+14255559999") and the SipUri of the current user.
 In this example we're using the user's SIP address ($_.SipAddress).
 

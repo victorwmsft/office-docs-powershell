@@ -50,7 +50,7 @@ This example displays all public properties on the SharePoint Central Administra
 ### -Identity
 Specifies the name, URL, or GUID of the Web application.
 
-The type must be a valid URL, in the form http://server_name; a GUID, in the form 1234-5678-9876-0987; or a valid name, in the form SPWebApplication - 1212.
+The type must be a valid URL, in the form <http://server_name>; a GUID, in the form 1234-5678-9876-0987; or a valid name, in the form SPWebApplication - 1212.
 
 ```yaml
 Type: SPWebApplicationPipeBind

@@ -46,7 +46,7 @@ This example returns a list of crawl rules with paths that contain the word exam
 ### -Identity
 Specifies the search crawl rule path.
 
-A valid URL, such as "http://webAppUrl", or an instance of a valid CrawlRule object
+A valid URL, such as "<http://webAppUrl>", or an instance of a valid CrawlRule object
 
 ```yaml
 Type: CrawlRulePipeBind

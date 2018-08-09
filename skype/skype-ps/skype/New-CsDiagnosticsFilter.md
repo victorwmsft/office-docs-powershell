@@ -71,7 +71,6 @@ In this case, any existing values in the Filter property will be replaced by the
 $x = New-CsDiagnosticsFilter -Fqdn "fabrikam.com","contoso.com" -Enabled $False
 
 Set-CsDiagnosticConfiguration -Identity global -Filter $x
-
 ```
 
 The commands shown in Example 2 are a variation of the commands shown in Example 1; in Example 2, however, two FQDNs (fabrikam.com and contoso.com) are added to the filter's Fqdn property.

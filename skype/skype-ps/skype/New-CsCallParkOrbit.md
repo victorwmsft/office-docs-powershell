@@ -58,7 +58,6 @@ The available range for this call park orbit is *1000 through *1999.
 ```
 
 New-CsCallParkOrbit -Identity "Redmond CPO 3" -NumberRangeStart "#1000" -NumberRangeEnd "#1999" -CallParkService ApplicationServer:redmond.litwareinc.com
-
 ```
 
 This example creates a new call park orbit range named "Redmond CPO 3" on the Call Park application server with the service ID ApplicationServer:redmond.litwareinc.com.

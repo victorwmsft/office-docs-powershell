@@ -52,7 +52,6 @@ Skype for Business Server Control Panel: The functions carried out by the Invoke
 ```
 
 Invoke-CsManagementServerFailover
-
 ```
 
 The command shown in Example 1 fails over the Central Management store for Skype for Business Server.

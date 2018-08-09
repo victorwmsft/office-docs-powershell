@@ -94,7 +94,7 @@ Set-CsAutoDiscoverConfiguration -Identity "site:Redmond" -WebLinks @{Replace=$Li
 ```
 
 Example 3 shows how you can replace an existing collection of Autodiscover URLs with, in this case, a single URL.
-To carry out this task, the first command in the example uses the `New-CsWebLink` cmdlet to create a new Autodiscover URL for http://LyncDiscover.contoso.com; the resulting URL is stored in a variable named $Link2.
+To carry out this task, the first command in the example uses the `New-CsWebLink` cmdlet to create a new Autodiscover URL for <http://LyncDiscover.contoso.com>; the resulting URL is stored in a variable named $Link2.
 The second command then uses the `Set-CsAutoDiscoverConfiguration` cmdlet and the WebLinks parameter to remove any URLs previously assigned to the Redmond site and replace them with the URL for http://LyncDiscover.contoso.com.
 To do this, the command uses the Replace method instead of the Add or Remove method.
 

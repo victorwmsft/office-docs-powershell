@@ -27,14 +27,14 @@ The Reset-PnPTenantRecycleBinItem cmdlet allows a site collection that has been 
 Reset-PnPTenantRecycleBinItem -Url https://tenant.sharepoint.com/sites/contoso
 ```
 
-This will restore the deleted site collection with the url 'https://tenant.sharepoint.com/sites/contoso' to its original location
+This will restore the deleted site collection with the url '<https://tenant.sharepoint.com/sites/contoso>' to its original location
 
 ### ------------------EXAMPLE 2------------------
 ```powershell
 Reset-PnPTenantRecycleBinItem -Url https://tenant.sharepoint.com/sites/contoso -Wait
 ```
 
-This will restore the deleted site collection with the url 'https://tenant.sharepoint.com/sites/contoso' to its original location and will wait with executing further PowerShell commands until the site collection restore has completed
+This will restore the deleted site collection with the url '<https://tenant.sharepoint.com/sites/contoso>' to its original location and will wait with executing further PowerShell commands until the site collection restore has completed
 
 ## PARAMETERS
 

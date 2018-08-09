@@ -22,7 +22,6 @@ For information about the parameter sets in the Syntax section below, see Exchan
 
 ```
 New-AuthenticationPolicy [[-Name] <String>] [-AllowBasicAuthActiveSync] [-AllowBasicAuthAutodiscover] [-AllowBasicAuthImap] [-AllowBasicAuthMapi] [-AllowBasicAuthOfflineAddressBook] [-AllowBasicAuthOutlookService] [-AllowBasicAuthPop] [-AllowBasicAuthPowershell] [-AllowBasicAuthReportingWebServices] [-AllowBasicAuthRest] [-AllowBasicAuthRpc] [-AllowBasicAuthSmtp] [-AllowBasicAuthWebServices] [-Confirm] [-WhatIf] [<CommonParameters>]
-
 ```
 
 ## DESCRIPTION

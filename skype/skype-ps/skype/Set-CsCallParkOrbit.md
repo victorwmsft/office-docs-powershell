@@ -118,7 +118,7 @@ Valid values: Must match the regular expression string (\[\*|#\]?\[1-9\]\d{0,7})
 This means that the value must be a string beginning with either the character * or # or a number 1 through 9 (the first character cannot be a zero).
 If the first character is * or # the following character must be a number 1 through 9 (it cannot be a zero).
 Subsequent characters can be any number 0 through 9 up to seven additional characters.
-(For example, "#6000", "*92000", and "*95551212".) The number following the * or # must be greater than 100.
+(For example, "#6000", "<em>92000", and "</em>95551212".) The number following the * or # must be greater than 100.
 If the first character is not * or #, the first character must be a number 1 through 9 (it cannot be zero), followed by up to eight characters, each a number 0 through 9.
 (For example, 915551212;41212;300.)
 
@@ -146,7 +146,7 @@ Valid values: Must match the regular expression string (\[\*|#\]?\[1-9\]\d{0,7})
 This means that the value must be a string beginning with either the character * or # or a number 1 through 9 (the first character cannot be a zero).
 If the first character is * or # the following character must be a number 1 through 9 (it cannot be a zero).
 Subsequent characters can be any number 0 through 9 up to seven additional characters.
-(For example, "#6000", "*92000", and "*95551212".) If the first character is not * or #, the first character must be a number 1 through 9 (it cannot be zero), followed by up to eight characters, each a number 0 through 9.
+(For example, "#6000", "<em>92000", and "</em>95551212".) If the first character is not * or #, the first character must be a number 1 through 9 (it cannot be zero), followed by up to eight characters, each a number 0 through 9.
 (For example, 915551212;41212;300.)
 
 ```yaml

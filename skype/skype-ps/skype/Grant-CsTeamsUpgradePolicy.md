@@ -30,6 +30,7 @@ IMPORTANT:  TeamsUpgradePolicy will replace TeamsInteropPolicy. Components that 
 Office 365 provides all relevant instances of TeamsUpgradePolicy via built-in, read-only policies. The built-in instances are listed below.
 </br>
 </br>
+
 |Identity|Mode|NotifySfbUsers|Action|Comments|
 |---|---|---|---|---|
 |Islands|Islands|False|None||

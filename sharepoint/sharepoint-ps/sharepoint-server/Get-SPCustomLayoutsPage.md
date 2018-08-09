@@ -41,7 +41,7 @@ This example returns the mapping of the AccessDenied layout page in the Web appl
 ### -WebApplication
 Specifies the SharePoint Web application that contains the custom layout page.
 
-The type must be a valid URL, in the form http://webAppUrl; a valid GUID, in the form 12345678-90ab-cdef-1234-567890bcdefgh; a valid name of SharePoint Web application (for example, MyOfficeApp1); or an instance of a valid SPWebApplication object.
+The type must be a valid URL, in the form <http://webAppUrl>; a valid GUID, in the form 12345678-90ab-cdef-1234-567890bcdefgh; a valid name of SharePoint Web application (for example, MyOfficeApp1); or an instance of a valid SPWebApplication object.
 
 ```yaml
 Type: SPWebApplicationPipeBind

@@ -46,7 +46,6 @@ Skype for Business Server Control Panel: The functions carried out by the Invoke
 ```
 
 Invoke-CsPoolFailback -PoolFqdn "atl-cs-001.litwareinc.com"
-
 ```
 
 In Example 1, failback is invoked for the pool atl-cs-001.litwareinc.com.

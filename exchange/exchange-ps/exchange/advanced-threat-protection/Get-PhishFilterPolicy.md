@@ -53,7 +53,6 @@ You need to be assigned permissions before you can run this cmdlet. Although thi
 ### -------------------------- Example 1 --------------------------
 ```
 Get-PhishFilterPolicy -Detailed -SpoofAllowBlockList -SpoofType Internal
-
 ```
 
 This example returns a detailed list of senders that appear to be sending spoofed email to your organization.

@@ -188,17 +188,17 @@ The EnableMailboxIntelligence parameter specifies whether to enable or disable m
 
 - $false: Don't use mailbox intelligence in domain and user impersonation protection. This is the default value.
 - 
-```yaml
-Type: $true | $false
-Parameter Sets: (All)
-Aliases:
-Applicable: Exchange Online, Exchange Online Protection
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
+  ```yaml
+  Type: $true | $false
+  Parameter Sets: (All)
+  Aliases:
+  Applicable: Exchange Online, Exchange Online Protection
+  Required: False
+  Position: Named
+  Default value: None
+  Accept pipeline input: False
+  Accept wildcard characters: False
+  ```
 
 ### -EnableOrganizationDomainsProtection
 The EnableOrganizationDomainsProtection parameter specifies whether to enable domain impersonation protection for all registered domains in the Office 365 organization. Valid values are:

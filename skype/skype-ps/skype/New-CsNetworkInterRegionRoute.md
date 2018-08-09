@@ -43,7 +43,6 @@ This cmdlet creates that route association.
 ### -------------------------- EXAMPLE 1 -------------------------- 
 ```
 New-CsNetworkInterRegionRoute -Identity NA_APAC_Route -NetworkRegionID1 NorthAmerica -NetworkRegionID2 APAC -NetworkRegionLinkIDs "NA_EMEA,EMEA_APAC"
-
 ```
 
 Example 1 creates a new network region route between the NorthAmerica region and the APAC region.

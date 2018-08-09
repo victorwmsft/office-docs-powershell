@@ -49,7 +49,6 @@ Skype for Business Server Control Panel: To create a new Persistent Chat categor
 ```
 
 New-CsPersistentChatCategory -Name "HelpDesk" -PersistentChatPoolFqdn "atl-cs-001.litwareinc.com" -EnableFileUpload
-
 ```
 
 The command shown in Example 1 creates a new Persistent Chat category named HelpDesk on the pool atl-cs-001.litwareinc.com.

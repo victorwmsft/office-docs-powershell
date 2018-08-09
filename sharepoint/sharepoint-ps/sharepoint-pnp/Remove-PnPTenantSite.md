@@ -27,21 +27,21 @@ Removes a site collection which is listed in your tenant administration site.
 Remove-PnPTenantSite -Url https://tenant.sharepoint.com/sites/contoso
 ```
 
-This will remove the site collection with the url 'https://tenant.sharepoint.com/sites/contoso'  and put it in the recycle bin.
+This will remove the site collection with the url '<https://tenant.sharepoint.com/sites/contoso>'  and put it in the recycle bin.
 
 ### ------------------EXAMPLE 2------------------
 ```powershell
 Remove-PnPTenantSite -Url https://tenant.sharepoint.com/sites/contoso -Force -SkipRecycleBin
 ```
 
-This will remove the site collection with the url 'https://tenant.sharepoint.com/sites/contoso' with force and it will skip the recycle bin.
+This will remove the site collection with the url '<https://tenant.sharepoint.com/sites/contoso>' with force and it will skip the recycle bin.
 
 ### ------------------EXAMPLE 3------------------
 ```powershell
 Remove-PnPTenantSite -Url https://tenant.sharepoint.com/sites/contoso -FromRecycleBin
 ```
 
-This will remove the site collection with the url 'https://tenant.sharepoint.com/sites/contoso' from the recycle bin.
+This will remove the site collection with the url '<https://tenant.sharepoint.com/sites/contoso>' from the recycle bin.
 
 ## PARAMETERS
 

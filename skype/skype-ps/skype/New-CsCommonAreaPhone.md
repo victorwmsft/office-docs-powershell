@@ -56,7 +56,6 @@ For more details, see the OU and the DN parameter descriptions in this topic.
 ### -------------------------- EXAMPLE 1 -------------------------- 
 ```
 New-CsCommonAreaPhone -LineUri tel:+14255556710 -RegistrarPool redmond-cs-001.litwareinc.com -DisplayName "Building 14 Lobby" -OU "ou=Telecommunications,dc=litwareinc,dc=com"
-
 ```
 
 The command shown in Example 1 creates a new common area phone for the phone number 1-425-555-6710.

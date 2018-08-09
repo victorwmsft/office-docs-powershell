@@ -62,7 +62,6 @@ This prompt will appear even if you include the Force parameter.
 ```
 
 Get-CsExUmContact | Where-Object {$_.AutoAttendant -eq $True} | Move-CsExUmContact -Target atl-cs-001.litwareinc.com
-
 ```
 
 This example moves all Exchange UM contact objects that are Auto Attendants to the Registrar pool with the FQDN atl-cs-001.litwareinc.com.

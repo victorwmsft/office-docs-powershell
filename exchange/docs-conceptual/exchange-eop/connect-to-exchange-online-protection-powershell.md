@@ -36,7 +36,7 @@ Exchange Online Protection PowerShell allows you to manage your Exchange Online 
 
     <sup>*</sup> For older versions of Windows, you need to install the Microsoft.NET Framework 4.5 or later and then an updated version of the Windows Management Framework: 3.0, 4.0, or 5.1 (only one). For more information, see [Installing the .NET Framework](https://go.microsoft.com/fwlink/p/?LinkId=257868), [Windows Management Framework 3.0](https://go.microsoft.com/fwlink/p/?LinkId=272757), [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/p/?LinkId=391344), and [Windows Management Framework 5.1](https://aka.ms/wmf5download).
 
- - Windows PowerShell needs to be configured to run scripts, and by default, it isn't. You'll get the following error when you try to connect:
+  - Windows PowerShell needs to be configured to run scripts, and by default, it isn't. You'll get the following error when you try to connect:
 
     `Files cannot be loaded because running scripts is disabled on this system. Provide a valid certificate with which to sign the files.`
 

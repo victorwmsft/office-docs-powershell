@@ -84,11 +84,11 @@ New-CsSimpleUrlConfiguration -Identity "site:Redmond" -SimpleUrl @{Add=$simpleUr
 ```
 
 Example 2 shows how you can create a new collection of simple URLs that includes two simple URLs (one for meeting management and one for dial-in conferencing).
-To do this, the first command in the example uses the New-CsSimpleUrlEntry cmdlet to create a URL entry that points to https://dialin.litwareinc.com; this URL entry is stored in a variable named $urlEntry.
+To do this, the first command in the example uses the New-CsSimpleUrlEntry cmdlet to create a URL entry that points to <https://dialin.litwareinc.com>; this URL entry is stored in a variable named $urlEntry.
 The second command then creates another URL entry, this one pointing to https://meet.fabrikam.com.
 
 Next, the New-CsSimpleUrl cmdlet is used to create an in-memory-only instance of a simple URL.
-In this example, the URL Component is set to dialin; the domain is set to an asterisk (*); the ActiveUrl is set to https://dialin.fabrikam.com; and the SimpleUrl property is set to $urlEntry.
+In this example, the URL Component is set to dialin; the domain is set to an asterisk (*); the ActiveUrl is set to <https://dialin.fabrikam.com>; and the SimpleUrl property is set to $urlEntry.
 (The variable $urlEntry represents the URL entry created in the first command.) A similar command is then used to create a simple URL for meet.fabrikam.com.
 
 After the URLs have been created (and stored in the object references $simpleUrl and $simpleUrl2) the final command in the example creates a new simple URL collection for the Redmond site, adding the two new in-memory-only URLs to that collection.

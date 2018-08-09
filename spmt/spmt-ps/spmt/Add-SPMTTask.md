@@ -144,10 +144,10 @@ Code snippets for bulk migration by loading the sample CSV with the name of spmt
 Two migration tasks are defined in the file of spmt.csv. 
 
 D:\MigrationTest\Files\Average_1M\c,,,https://SPOSite.sharepoint.com,Documents,Test
-C:\work\Powershell\negative,,,https://SPOSite.sharepoint.com/,Documents,DocLibrary_SubfolderName
+C:\work\Powershell\negative,,,<https://SPOSite.sharepoint.com/,Documents,DocLibrary_SubfolderName>
 
 Code snippets for bulk migration by loading one JSON file: 
- 
+
 ### Load JSON
     $jsonItems = Get-Content -Raw -Path  "C:\spmt.json" | ConvertFrom-Json        
     ForEach ($taskItem in $jsonItems.Tasks)
@@ -155,7 +155,7 @@ Code snippets for bulk migration by loading one JSON file:
         $jsonString = ConvertTo-Json $taskItem -Depth 100
         Add-SPMTTask -JsonDefinition $jsonString -SharePointSourceCredential $onpremCredential            
     } 
- 
+
 Three migration tasks are defined in the file of spmt.json. 
 
 ```
@@ -208,7 +208,6 @@ Three migration tasks are defined in the file of spmt.json.
       }
    ]
 }
-
 ```
 
 ## PARAMETERS

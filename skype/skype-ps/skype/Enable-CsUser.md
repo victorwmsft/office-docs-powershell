@@ -123,13 +123,13 @@ Instructs Skype for Business Server 2015 to auto-generate a SIP address for the 
 In order to have Skype for Business Server 2015 auto-generate the SIP address, you must include the SipAddressType parameter and use one of the following parameter values:
 
 - FirstLastName: The SIP address is the user's first name and a period followed by the user's last name and the SIP domain.
-For example, the user Ken Myer would have a SIP address similar to this: Ken.Myer@litwareinc.com.
-If you use this address type then you must also include the SipDomain parameter.
+  For example, the user Ken Myer would have a SIP address similar to this: Ken.Myer@litwareinc.com.
+  If you use this address type then you must also include the SipDomain parameter.
 - EmailAddress: The user's email address (as defined in Active Directory) is used as the SIP address.
 - UserPrincipalName: The user's UPN is used as the SIP address.
 - SamAccountName: The SIP address is the user's SamAccountName (logon name) followed by the SIP domain.
-For example, the user with the SamAccountName kmyer will have a SIP address similar to this: kmyer@litwareinc.com.
-If you use this address type then you must also include the SipDomain parameter.
+  For example, the user with the SamAccountName kmyer will have a SIP address similar to this: kmyer@litwareinc.com.
+  If you use this address type then you must also include the SipDomain parameter.
 
 The SipAddressType parameter is not required if you use the SipAddress parameter and explicitly assign the user a SIP address.
 

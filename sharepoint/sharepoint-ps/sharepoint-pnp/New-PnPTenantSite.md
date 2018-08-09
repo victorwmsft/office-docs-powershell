@@ -39,14 +39,14 @@ Online site collection fails if a deleted site with the same URL exists in the R
 New-PnPTenantSite -Title Contoso -Url https://tenant.sharepoint.com/sites/contoso -Owner user@example.org -TimeZone 4 -Template STS#0
 ```
 
-This will add a site collection with the title 'Contoso', the url 'https://tenant.sharepoint.com/sites/contoso', the timezone 'UTC+01:00',the owner 'user@example.org' and the template used will be STS#0, a TeamSite
+This will add a site collection with the title 'Contoso', the url '<https://tenant.sharepoint.com/sites/contoso>', the timezone 'UTC+01:00',the owner 'user@example.org' and the template used will be STS#0, a TeamSite
 
 ### ------------------EXAMPLE 2------------------
 ```powershell
 New-PnPTenantSite -Title Contoso -Url /sites/contososite -Owner user@example.org -TimeZone 4 -Template STS#0
 ```
 
-This will add a site collection with the title 'Contoso', the url 'https://tenant.sharepoint.com/sites/contososite' of which the base part will be picked up from your current connection, the timezone 'UTC+01:00', the owner 'user@example.org' and the template used will be STS#0, a TeamSite
+This will add a site collection with the title 'Contoso', the url '<https://tenant.sharepoint.com/sites/contososite>' of which the base part will be picked up from your current connection, the timezone 'UTC+01:00', the owner 'user@example.org' and the template used will be STS#0, a TeamSite
 
 ## PARAMETERS
 

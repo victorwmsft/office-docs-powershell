@@ -61,7 +61,7 @@ Accept wildcard characters: False
 ### -Site
 Specifies the site collection where the sandboxed solution is to be added.
 
-The type must be a valid GUID, in the form 12345678-90ab-cdef-1234-567890bcdefgh; a valid URL, in the form http://server_name; or an instance of a valid SPSiteobject.
+The type must be a valid GUID, in the form 12345678-90ab-cdef-1234-567890bcdefgh; a valid URL, in the form <http://server_name>; or an instance of a valid SPSiteobject.
 
 ```yaml
 Type: SPSitePipeBind

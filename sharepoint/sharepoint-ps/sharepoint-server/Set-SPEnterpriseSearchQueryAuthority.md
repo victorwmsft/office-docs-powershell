@@ -81,7 +81,7 @@ Accept wildcard characters: False
 ### -Identity
 Specifies the query authority page to update.
 
-The type must be a valid URL, in the form http://server_name; or an instance of a valid AuthorityPage object.
+The type must be a valid URL, in the form <http://server_name>; or an instance of a valid AuthorityPage object.
 
 
 ```yaml

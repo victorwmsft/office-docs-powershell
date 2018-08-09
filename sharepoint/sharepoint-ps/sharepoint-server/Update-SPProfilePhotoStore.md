@@ -29,7 +29,7 @@ If the operation fails for certain users for any reason, it continues on to the 
 During the migration of profile photos from one server URL to another, one can use the OldBaseUri and NewBaseUri parameters.
 You just need to specify the starting portion of the URL that has changed from old to new and an attempt to rebase the profile picture URLs will occur.
 
-For example, OldBaseUri: http://server1/my/ProfilePhotos; NewBaseUri: http://server1/my/NewLocation/ProfilePhotos
+For example, OldBaseUri: <http://server1/my/ProfilePhotos>; NewBaseUri: http://server1/my/NewLocation/ProfilePhotos
 
 For permissions and the most current information about Windows PowerShell for SharePoint Products, see the online documentation at http://go.microsoft.com/fwlink/p/?LinkId=251831 (http://go.microsoft.com/fwlink/p/?LinkId=251831).
 

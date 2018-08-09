@@ -64,7 +64,7 @@ Accept wildcard characters: False
 ### -DestinationSPSite
 Specifies the destination site collection.
 
-The type must be a valid GUID, in the form 12345678-90ab-cdef-1234-567890bcdefgh; a valid URL, in the form http://server_name; or an instance of a valid SPSite object.
+The type must be a valid GUID, in the form 12345678-90ab-cdef-1234-567890bcdefgh; a valid URL, in the form <http://server_name>; or an instance of a valid SPSite object.
 
 ```yaml
 Type: String
@@ -82,7 +82,7 @@ Accept wildcard characters: False
 ### -DestinationSPWebApplication
 Specifies the destination Web application.
 
-The type must be a valid URL, in the form http://server_name; a valid GUID, in the form 12345678-90ab-cdef-1234-567890bcdefgh; a valid name of Web application (for example, MyOfficeApp1); or an instance of a valid SPWebApplication object.
+The type must be a valid URL, in the form <http://server_name>; a valid GUID, in the form 12345678-90ab-cdef-1234-567890bcdefgh; a valid name of Web application (for example, MyOfficeApp1); or an instance of a valid SPWebApplication object.
 
 ```yaml
 Type: Uri
@@ -137,7 +137,7 @@ Accept wildcard characters: False
 Specifies the source site collection for the deployment path.
 Must be a site collection in the source specified in the SourceSPWebApplication parameter.
 
-The type must be a valid GUID, in the form 12345678-90ab-cdef-1234-567890bcdefgh; a valid URL, in the form http://server_name; or an instance of a valid SPSite object.
+The type must be a valid GUID, in the form 12345678-90ab-cdef-1234-567890bcdefgh; a valid URL, in the form <http://server_name>; or an instance of a valid SPSite object.
 
 ```yaml
 Type: SPSitePipeBind
@@ -155,7 +155,7 @@ Accept wildcard characters: False
 ### -SourceSPWebApplication
 Specifies the source Web application for the deployment path.
 
-The type must be a valid URL, in the form http://server_name; a valid GUID, in the form 12345678-90ab-cdef-1234-567890bcdefgh; a valid name of SharePoint Web application (for example, MyOfficeApp1); or an instance of a valid SPWebApplication object.
+The type must be a valid URL, in the form <http://server_name>; a valid GUID, in the form 12345678-90ab-cdef-1234-567890bcdefgh; a valid name of SharePoint Web application (for example, MyOfficeApp1); or an instance of a valid SPWebApplication object.
 
 ```yaml
 Type: SPWebApplicationPipeBind

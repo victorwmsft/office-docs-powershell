@@ -34,7 +34,6 @@ For permissions and the most current information about Windows PowerShell for Sh
 ```
 
 PS C:\>$subscription = New-SPSiteSubscription
-
 ```
 
 This example creates a new site subscription.

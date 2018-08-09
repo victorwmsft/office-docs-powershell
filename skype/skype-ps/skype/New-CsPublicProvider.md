@@ -61,7 +61,6 @@ $x = New-CsPublicProvider -Identity "Fabrikam" -ProxyFqdn "proxyserver.fabrikam.
 $x.VerificationLevel = "AlwaysUnverifiable"
 
 Set-CsPublicProvider -Instance $x
-
 ```
 
 Example 2 demonstrates how you can create a new public provider in memory only, modify the properties of that provider, then turn the virtual provider into a real provider that can be used in your organization.

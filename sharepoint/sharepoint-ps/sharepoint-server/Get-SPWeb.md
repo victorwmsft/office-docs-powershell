@@ -188,7 +188,7 @@ Accept wildcard characters: False
 ### -Site
 Specifies the URL or GUID of the site collection from which to list subsites.
 
-The type must be a valid URL, in the form  of http://server_name; a GUID, in the form 1234-5678-9807, or an SPSite object.
+The type must be a valid URL, in the form  of <http://server_name>; a GUID, in the form 1234-5678-9807, or an SPSite object.
 
 ```yaml
 Type: SPSitePipeBind

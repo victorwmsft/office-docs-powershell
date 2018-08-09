@@ -31,28 +31,28 @@ Adds a menu item to either the quicklaunch or top navigation
 Add-PnPNavigationNode -Title "Contoso" -Url "http://contoso.sharepoint.com/sites/contoso/" -Location "QuickLaunch"
 ```
 
-Adds a navigation node to the quicklaunch. The navigation node will have the title "Contoso" and will link to the url "http://contoso.sharepoint.com/sites/contoso/"
+Adds a navigation node to the quicklaunch. The navigation node will have the title "Contoso" and will link to the url "<http://contoso.sharepoint.com/sites/contoso/>"
 
 ### ------------------EXAMPLE 2------------------
 ```powershell
 Add-PnPNavigationNode -Title "Contoso USA" -Url "http://contoso.sharepoint.com/sites/contoso/usa/" -Location "QuickLaunch" -Parent 2012
 ```
 
-Adds a navigation node to the quicklaunch. The navigation node will have the title "Contoso USA", will link to the url "http://contoso.sharepoint.com/sites/contoso/usa/" and will have the node with id 2012 as a parent navigation node.
+Adds a navigation node to the quicklaunch. The navigation node will have the title "Contoso USA", will link to the url "<http://contoso.sharepoint.com/sites/contoso/usa/>" and will have the node with id 2012 as a parent navigation node.
 
 ### ------------------EXAMPLE 3------------------
 ```powershell
 Add-PnPNavigationNode -Title "Contoso" -Url "http://contoso.sharepoint.com/sites/contoso/" -Location "QuickLaunch" -First
 ```
 
-Adds a navigation node to the quicklaunch, as the first item. The navigation node will have the title "Contoso" and will link to the url "http://contoso.sharepoint.com/sites/contoso/"
+Adds a navigation node to the quicklaunch, as the first item. The navigation node will have the title "Contoso" and will link to the url "<http://contoso.sharepoint.com/sites/contoso/>"
 
 ### ------------------EXAMPLE 4------------------
 ```powershell
 Add-PnPNavigationNode -Title "Contoso Pharmaceuticals" -Url "http://contoso.sharepoint.com/sites/contosopharma/" -Location "QuickLaunch" -External
 ```
 
-Adds a navigation node to the quicklaunch. The navigation node will have the title "Contoso Pharmaceuticals" and will link to the external url "http://contoso.sharepoint.com/sites/contosopharma/"
+Adds a navigation node to the quicklaunch. The navigation node will have the title "Contoso Pharmaceuticals" and will link to the external url "<http://contoso.sharepoint.com/sites/contosopharma/>"
 
 ### ------------------EXAMPLE 5------------------
 ```powershell

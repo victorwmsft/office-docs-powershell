@@ -14,7 +14,6 @@ Removes the specified external user communication policy.
 
 ```
 Remove-CsExternalUserCommunicationPolicy [[-Identity] <XdsIdentity>] [-Confirm] [-Force] [-Tenant <Guid>] [-WhatIf] [-AsJob] [<CommonParameters>]
-
 ```
 
 ## DESCRIPTION

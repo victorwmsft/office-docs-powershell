@@ -62,7 +62,7 @@ For permissions and the most current information about Windows PowerShell for Sh
 Set-SPOSite -Identity https://contoso.sharepoint.com/sites/site1 -Owner joe.healy@contoso.com -NoWait
 ```
 
-Example 1 updates the owner of site collection https://contoso.sharepoint.com/sites/site1 to the person whose email address is joe.healy@contoso.com. This cmdlet is executed immediately without delay.
+Example 1 updates the owner of site collection <https://contoso.sharepoint.com/sites/site1> to the person whose email address is joe.healy@contoso.com. This cmdlet is executed immediately without delay.
 
 
 ### -----------------------EXAMPLE 2-----------------------------

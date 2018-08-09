@@ -43,7 +43,6 @@ This cmdlet creates a network site policy that associates a bandwidth limitation
 ```
 
 New-CsNetworkInterSitePolicy -Identity Reno_Portland -NetworkSiteID1 Reno -NetworkSiteID2 Portland -BWPolicyProfileID LowBWLimits
-
 ```
 
 This example creates a new network inter-site policy that limits bandwidth between the connected sites Reno and Portland.

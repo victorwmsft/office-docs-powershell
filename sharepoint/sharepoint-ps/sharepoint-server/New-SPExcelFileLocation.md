@@ -67,7 +67,7 @@ This example adds a new trusted file location to the list of trusted file locati
 ### -Address
 Specifies a Web folder, or file directory from which Excel Services Application can load workbooks.
 
-The type must be a valid URL, in the form http://myPortal/myTeam; or a valid UNC path in form, \\\\server_name\folder_name
+The type must be a valid URL, in the form <http://myPortal/myTeam>; or a valid UNC path in form, \\\\server_name\folder_name
 
 ```yaml
 Type: String

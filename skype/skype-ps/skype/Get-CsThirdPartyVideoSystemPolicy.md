@@ -40,7 +40,6 @@ The Get-CsThirdPartyVideoSystem cmdlet provides a way for administrators to retu
 ### -------------------------- Example 1 --------------------------
 ```
 Get-CsThirdPartyVideoSystemPolicy
-
 ```
 
 The command shown in Example 1 returns information about all the third-party video system policies currently configured for use in the organization.

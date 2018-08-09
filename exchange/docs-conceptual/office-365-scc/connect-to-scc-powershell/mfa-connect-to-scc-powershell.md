@@ -63,26 +63,26 @@ If your account uses multi-factor authentication (MFA) or federated authenticati
     Connect-IPPSSession -UserPrincipalName <UPN> [-ConnectionUri <ConnectionUri> -AzureADAuthorizationEndPointUri <AzureADUri>]
     ```
 
-    - _\<UPN\>_ is your Office 365 work or school account.
+   - _\<UPN\>_ is your Office 365 work or school account.
 
-    - The _\<ConnectionUri\>_ and _\<AzureADUri\>_ values depend on the location of your Office 365 organization as described in the following table:
+   - The _\<ConnectionUri\>_ and _\<AzureADUri\>_ values depend on the location of your Office 365 organization as described in the following table:
 
-    |**Office 365 offering**|**_ConnectionUri_ parameter value**|**_AzureADAuthorizationEndPointUri_ parameter value**|
-    |:-----|:-----|:-----|
-    |Office 365 |Not used |Not used |
-    |Office 365 Germany | `https://ps.compliance.protection.outlook.de/PowerShell-LiveID` | `https://login.microsoftonline.de/common` |
+     |**Office 365 offering**|**_ConnectionUri_ parameter value**|**_AzureADAuthorizationEndPointUri_ parameter value**|
+     |:-----|:-----|:-----|
+     |Office 365 |Not used |Not used |
+     |Office 365 Germany | `https://ps.compliance.protection.outlook.de/PowerShell-LiveID` | `https://login.microsoftonline.de/common` |
  
-    This example connects to the Security & Compliance Center in Office 365 using the account chris@contoso.com.
+     This example connects to the Security & Compliance Center in Office 365 using the account chris@contoso.com.
 
-    ```
-    Connect-IPPSSession -UserPrincipalName chris@contoso.com
-    ```
+     ```
+     Connect-IPPSSession -UserPrincipalName chris@contoso.com
+     ```
 
-    This example connects to the Security & Compliance Center in Office 365 Germany using the account lukas@fabrikam.com.
+     This example connects to the Security & Compliance Center in Office 365 Germany using the account lukas@fabrikam.com.
 
-    ```
-    Connect-IPPSSession -UserPrincipalName lukas@fabrikam.com -ConnectionUri https://ps.compliance.protection.outlook.de/PowerShell-LiveID -AzureADAuthorizationEndPointUri https://login.microsoftonline.de/common
-    ```
+     ```
+     Connect-IPPSSession -UserPrincipalName lukas@fabrikam.com -ConnectionUri https://ps.compliance.protection.outlook.de/PowerShell-LiveID -AzureADAuthorizationEndPointUri https://login.microsoftonline.de/common
+     ```
 
 3. In the sign-in window that opens, enter your password, and then click **Sign in**.
 

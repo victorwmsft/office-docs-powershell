@@ -111,8 +111,8 @@ Accept wildcard characters: False
 
 ### -Filter
 Enables you to use wildcard characters in order to return one or more domains from the list of blocked domains.
-To return all the domains that have an Identity that begins with the letter "r" use this syntax: -Filter r*.
-To return all the domains that have an Identity that ends with ".net" use this syntax: -Filter "*.net".
+To return all the domains that have an Identity that begins with the letter "r" use this syntax: -Filter r<em>.
+To return all the domains that have an Identity that ends with ".net" use this syntax: -Filter "</em>.net".
 To return all the domains that have an Identity that begins with the letter "f" or with the letter "g" use this syntax: -Filter \[fg\]*.
 
 ```yaml

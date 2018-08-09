@@ -47,7 +47,6 @@ That means that you will not be able to run the Lock-CsClientPin cmdlet from a r
 ```
 
 Lock-CsClientPin -Identity "kenmyer@litwareinc.com"
-
 ```
 
 In Example 1, the Lock-CsClientPin cmdlet is used to lock the PIN belonging to the user kenmyer@litwareinc.com.

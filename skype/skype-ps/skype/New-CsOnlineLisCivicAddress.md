@@ -65,7 +65,6 @@ NumberOfVoiceUsers : 0
 ```
 
 New -CsOnlineLisCivicAddress -HouseNumber 3910 -StreetName Smith -StreetSuffix Street -PostDirectional NE -City Redmond -StateorProvince Washington -Country US -PostalCode 98052 -Description "West Coast Headquarters" -CompanyName Contoso
-
 ```
 
 This example creates a new civic address described as "West Coast Headquarters": 3910 Smith Street NE, Redmond WA, 98052.

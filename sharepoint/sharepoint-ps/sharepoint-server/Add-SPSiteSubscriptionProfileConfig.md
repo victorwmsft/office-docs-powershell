@@ -72,7 +72,7 @@ Accept wildcard characters: False
 ### -MySiteHostLocation
 Specifies the site collection where the My Site host for the site subscription is provisioned.
 
-The type must be a valid GUID, in the form 12345678-90ab-cdef-1234-567890bcdefgh; or a valid URL, in the form http://server_name; or an instance of a valid SPSite object.
+The type must be a valid GUID, in the form 12345678-90ab-cdef-1234-567890bcdefgh; or a valid URL, in the form <http://server_name>; or an instance of a valid SPSite object.
 
 ```yaml
 Type: SPSitePipeBind

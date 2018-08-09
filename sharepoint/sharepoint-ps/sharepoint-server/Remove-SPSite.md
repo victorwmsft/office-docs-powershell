@@ -45,7 +45,7 @@ This example immediately deletes the site and it's contents from the farm.
 
 ### -Identity
 Specifies the identity of the site to delete.
-The identity can be either a valid URL, in the form http://server_name; a valid GUID, in the form 12345678-90ab-cdef-1234-567890bcdefgh; or an SPSite object.
+The identity can be either a valid URL, in the form <http://server_name>; a valid GUID, in the form 12345678-90ab-cdef-1234-567890bcdefgh; or an SPSite object.
 
 ```yaml
 Type: SPSitePipeBind

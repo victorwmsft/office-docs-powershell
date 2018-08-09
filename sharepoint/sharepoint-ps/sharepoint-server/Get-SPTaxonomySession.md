@@ -37,7 +37,7 @@ This example retrieves a TaxonomySession object, which can be used to access ter
 ### -Site
 Specifies the SharePoint site mapped to the set of metadata term stores for the taxonomy session.
 
-The type must be a valid GUID, in the form 12345678-90ab-cdef-1234-567890bcdefgh; a valid URL, in the form http://server_name; or an instance of a valid SPSite object.
+The type must be a valid GUID, in the form 12345678-90ab-cdef-1234-567890bcdefgh; a valid URL, in the form <http://server_name>; or an instance of a valid SPSite object.
 
 ```yaml
 Type: SPSitePipeBind

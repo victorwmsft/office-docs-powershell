@@ -50,7 +50,6 @@ The command shown in Example 1 moves the third-party video system with the Ident
 ```
 
 Get-CsThirdPartyVideoSystem | Move-CsThirdPartyVideoSystem -Target "atl-cs-001.litwareinc.com"
-
 ```
 
 Example 2 shows how you can move all the third-party video systems in the organization to the Registrar pool atl-cs-001.litwareinc.com.

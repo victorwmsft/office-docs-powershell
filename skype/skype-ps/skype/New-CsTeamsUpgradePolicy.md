@@ -19,7 +19,6 @@ In on-premises deployments of Skype for Business Server, TeamsUpgradePolicy enab
 
 ```
 New-CsTeamsUpgradePolicy [-Identity] <XdsIdentity> [-NotifySfbUsers <Boolean>] [-Description <String>] 
- 
 ```
 
 ## DESCRIPTION
@@ -89,7 +88,7 @@ Accept wildcard characters: False
 
 ### -Identity
 The identity of the policy. To specify the global policy for the organization, use "global". To specify a specific site, use "site:<name>" where <name> is the name of the site. To specfy a policy that can be assigned as needed to any users, simply specify a name of your choosing.
- 
+
 ```yaml
 Type: XdsIdentity
 Parameter Sets: (All)

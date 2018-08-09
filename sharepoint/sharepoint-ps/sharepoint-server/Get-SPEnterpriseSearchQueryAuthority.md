@@ -47,7 +47,7 @@ This example obtains the collection of query authority pages from a search servi
 ### -Identity
 Specifies the query authority to get.
 
-The type must be a valid URL, in the form http://server_name; or an instance of a valid AuthorityPage object.
+The type must be a valid URL, in the form <http://server_name>; or an instance of a valid AuthorityPage object.
 
 ```yaml
 Type: AuthorityPagePipeBind

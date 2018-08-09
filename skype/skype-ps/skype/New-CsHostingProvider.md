@@ -77,7 +77,6 @@ If you leave out any of the required parameters, the New-CsHostingProvider cmdle
 ### -------------------------- EXAMPLE 2 -------------------------- 
 ```
 New-CsHostingProvider -Identity Fabrikam.com -ProxyFqdn "proxyserver.fabrikam.com" -Enabled $True -HostsOCSUsers $True -EnabledSharedAddressSpace $True
-
 ```
 
 Example 2 demonstrates how you can create a new hosting provider for use in a split domain scenario.

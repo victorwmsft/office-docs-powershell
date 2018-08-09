@@ -127,7 +127,7 @@ This number should be a valid number and could be used to represent a division w
 
 If the SuppressCallerId parameter is set to False, the AlternateCallerId parameter is ignored.
 
-This value must match the regular expression (\+)?\[1-9\]\d*(;ext=\[1-9\]\d*)?.
+This value must match the regular expression (\+)?\[1-9\]\d<em>(;ext=\[1-9\]\d</em>)?.
 In other words, the value can begin with a plus sign (+) but doesn't need to; must consist of any number of digits and may be followed by an extension that begins with ;ext= followed by any number of digits.
 (Note that if you include an extension the string must be placed within double quotes.)
 

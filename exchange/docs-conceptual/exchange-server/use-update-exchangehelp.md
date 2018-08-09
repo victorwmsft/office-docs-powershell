@@ -196,12 +196,12 @@ You need the download location of the customized ExchangeHelpInfo.xml manifest f
   
 1. Copy and paste the following text into Notepad, customize the URL for your environment, and save the file as UpdateExchangeHelp.reg in a location that's easy to remember.
     
-  ```
-  Windows Registry Editor Version 5.00
+   ```
+   Windows Registry Editor Version 5.00
 
- [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ExchangeServer\v15\UpdateExchangeHelp]
- "ManifestUrl"="http://intranet.contoso.com/downloads/exchange/ExchangeHelpInfo.xml"
-  ```
+   [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ExchangeServer\v15\UpdateExchangeHelp]
+   "ManifestUrl"="http://intranet.contoso.com/downloads/exchange/ExchangeHelpInfo.xml"
+   ```
 
 2. Run the UpdateExchangeHelp.reg file on your internal Exchange servers.
     

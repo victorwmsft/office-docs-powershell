@@ -25,7 +25,6 @@ Returns one or more objects representing the availability groups known to the Sh
 ### Example 1 
 ```
 PS C:\>Get-AvailabilityGroupStatus -Identity MyAvailabilityGroup 
-
 ```
 
 This example returns an availability group named "MyAvailabilityGroup".

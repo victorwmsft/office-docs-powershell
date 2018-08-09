@@ -69,7 +69,6 @@ Example 3 returns information for a single Skype for Business Server service: th
 ### -------------------------- Example 4 ------------------------
 ```
 Get-CsWindowsService -Name "RTCSrv" | Select-Object -ExpandProperty RoleName
-
 ```
 
 In Example 4, detailed information is displayed for all the service roles handled by the RTCSrv service.

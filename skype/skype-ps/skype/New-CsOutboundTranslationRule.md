@@ -60,7 +60,6 @@ If the rule name does not contain a space you don't need to enclose the Identity
 ### -------------------------- EXAMPLE 2 -------------------------- 
 ```
 New-CsOutboundTranslationRule -Parent global -Name SeattleSevenDigit -Description "Convert to seven digits" -Pattern '^\+1425(\d{7})$' -Translation '$1'
-
 ```
 
 This example creates a new global outbound translation rule named SeattleSevenDigit.

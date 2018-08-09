@@ -40,8 +40,8 @@ Get-CsExUmContact -Filter {LineURI -like "tel:425*"} | Remove-CsExUmContact
 ```
 
 This example removes all Exchange UM contacts with LineURI values beginning with tel:425.
-The first part of this command calls the `Get-CsExUmContact` cmdlet with the Filter parameter, using this expression as the filter: LineURI -like "tel:425*".
-That filter specifies that we want to retrieve the Exchange UM contact objects that have a LineURI matching the wildcard string tel:425*.
+The first part of this command calls the `Get-CsExUmContact` cmdlet with the Filter parameter, using this expression as the filter: LineURI -like "tel:425<em>".
+That filter specifies that we want to retrieve the Exchange UM contact objects that have a LineURI matching the wildcard string tel:425</em>.
 In other words, all line URIs that start with the string tel:425 and end with any set of characters.
 Once we have that collection of objects, we pipe the collection to the `Remove-CsExUmContact` cmdlet, which removes all the items in the collection.
 

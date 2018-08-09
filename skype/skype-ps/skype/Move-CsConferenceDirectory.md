@@ -66,7 +66,6 @@ In this case, however, the Force parameter is included to ensure that the move t
 ```
 
 Get-CsConferenceDirectory | Move-CsConferenceDirectory -TargetPool atl-cs-002.litwareinc.com
-
 ```
 
 Example 3 moves all the existing conference directories to the target pool atl-cs-002.litwareinc.com.

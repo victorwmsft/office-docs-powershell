@@ -76,10 +76,10 @@ Set-CsSimpleUrlConfiguration -Identity "site:Redmond" -SimpleUrl @{Add=$simpleUr
 ```
 
 Example 1 shows how a new URL can be added to an existing collection of simple URLs.
-To begin with, the first command in the example uses the New-CsSimpleUrlEntry cmdlet to create a URL entry that points to https://meet.fabrikam.com; this URL entry is stored in a variable named $urlEntry.
+To begin with, the first command in the example uses the New-CsSimpleUrlEntry cmdlet to create a URL entry that points to <https://meet.fabrikam.com>; this URL entry is stored in a variable named $urlEntry.
 
 In the second command, the New-CsSimpleUrl cmdlet is used to create an in-memory-only instance of a simple URL.
-In this example, the URL Component is set to Meet; the domain is set to fabrikam.com; the ActiveUrl is set to https://meet.fabrikam.com; and the SimpleUrl property is set to $urlEntry, with $urlEntry being the URL entry created in the first command.
+In this example, the URL Component is set to Meet; the domain is set to fabrikam.com; the ActiveUrl is set to <https://meet.fabrikam.com>; and the SimpleUrl property is set to $urlEntry, with $urlEntry being the URL entry created in the first command.
 
 After the URL has been created (and stored in the object reference $simpleUrl) the final command in the example adds the new URL to the simple URL collection for the Redmond site.
 This is done by using the Set-CsSimpleUrlConfiguration cmdlet, the SimpleUrl parameter, and the parameter value @{Add=$simpleUrl}.

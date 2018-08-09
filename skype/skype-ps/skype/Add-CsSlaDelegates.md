@@ -60,8 +60,10 @@ Indicates the identity of the shared number to which the delegate will be added.
 User identities can be specified using one of five formats:
 - SIP address
   - Example: sip:kenmyer@litwareinc.com
+
 - User principal name (UPN)
   - Example: kenmyer@litwareinc.com
+
 - Domain name and logon name in the form domain\logon
   - Example: litwareinc\kenmyer
 - Active Directory display name (this form typically requires quotes)

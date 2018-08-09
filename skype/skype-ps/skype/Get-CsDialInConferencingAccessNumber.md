@@ -215,7 +215,7 @@ Enables you to limit the returned data by filtering on specific attributes for S
 For example, you can limit returned data to dial-in conferencing numbers that have the string value "Redmond" in their display name, or toll-free dial-in conferencing numbers that use the 1-800 prefix.
 
 The Filter parameter uses the same Windows PowerShell filtering syntax that is used by the Where-Object cmdlet.
-For example, a filter that returns only access numbers that have the 1-800 prefix would look like this: {LineUri -like "tel:+1800*"}, withLineUri representing the Active Directory attribute, -like representing the comparison operator, and "tel:+1800*" representing the filter value.
+For example, a filter that returns only access numbers that have the 1-800 prefix would look like this: {LineUri -like "tel:+1800<em>"}, withLineUri representing the Active Directory attribute, -like representing the comparison operator, and "tel:+1800</em>" representing the filter value.
 
 ```yaml
 Type: String

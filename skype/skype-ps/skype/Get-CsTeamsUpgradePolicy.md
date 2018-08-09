@@ -102,7 +102,6 @@ Description    : Use Skype for Business and use Teams only for group collaborati
 Mode           : SfBWithTeamsCollab
 NotifySfbUsers : True
 Action         : Notify
-
 ```
 
 List all instances of TeamsUpgradePolicy
@@ -117,7 +116,6 @@ Description    : Users can use either Skype for Business client or Teams client
 Mode           : Legacy
 NotifySfbUsers : False
 Action         : None
-
 ```
 
 List the global instance of TeamsUpgradePolicy
@@ -129,7 +127,6 @@ PS C:\> Get-CsTeamsUpgradePolicy -Identity Global
 Identity       : Global
 Description    : Notifications are disabled
 NotifySfbUsers : False
-
 ```
 
 List all on-premises instances (if any) of TeamsUpgradePolicy

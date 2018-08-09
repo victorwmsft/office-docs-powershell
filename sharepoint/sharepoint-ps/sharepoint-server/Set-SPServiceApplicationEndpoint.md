@@ -51,7 +51,7 @@ This example associates the SPServiceEndpoint object with the specified identity
 ### -Identity
 Specifies the service endpoint to update.
 
-The type must be a valid GUID, in the form 12345678-90ab-cdef-1234-567890bcdefgh; a valid URI of an endpoint address, in the form http://sitename:8003/servicemodelsamples/service; or an instance of a valid SPServiceEndpoint object.
+The type must be a valid GUID, in the form 12345678-90ab-cdef-1234-567890bcdefgh; a valid URI of an endpoint address, in the form <http://sitename:8003/servicemodelsamples/service>; or an instance of a valid SPServiceEndpoint object.
 
 ```yaml
 Type: SPServiceEndpointPipeBind

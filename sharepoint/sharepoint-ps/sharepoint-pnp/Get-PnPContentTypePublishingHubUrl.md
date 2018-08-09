@@ -21,7 +21,6 @@ Get-PnPContentTypePublishingHubUrl [-Connection <SPOnlineConnection>]
 $url = Get-PnPContentTypePublishingHubUrl
 Connect-PnPOnline -Url $url
 Get-PnPContentType
-
 ```
 
 This will retrieve the url to the content type hub, connect to it, and then retrieve the content types form that site

@@ -29,7 +29,7 @@ Cmdlet to remove a previously created migration job from the specified site coll
 Remove-SPOMigrationJob -JobId 4da9e777-3e38-4804-96d9-ddeebe7dfa79 -TargetUrl https://contoso.sharepoint.com/sites/TargetSite
 ```
 
-This example removes the specified migration job from the site collection “https://contoso.sharepoint.com/sites/TargetSite”.
+This example removes the specified migration job from the site collection “<https://contoso.sharepoint.com/sites/TargetSite”>.
 
 
 ## PARAMETERS

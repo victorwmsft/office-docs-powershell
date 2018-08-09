@@ -59,7 +59,6 @@ This collection of users is then piped to the Grant-CsClientPolicy cmdlet, which
 ```
 
 Get-CsUser -LDAPFilter "(&(Title=Accountant)(l=Redmond))" | Grant-CsClientPolicy -PolicyName RedmondAccountingPolicy
-
 ```
 
 In Example 3, the client policy RedmondAccountingPolicy is assigned to all the users who meet two criteria: 1) the user must have the job title Accountant; and, 2) the user must work in the city of Redmond.

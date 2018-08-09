@@ -64,8 +64,8 @@ Get-CsCommonAreaPhone -Filter {DisplayName -like "Building 14*"}
 ```
 
 Example 3 returns all the common area phones that have an Active Directory display name that begins with the characters "Building 14".
-To do this, the Get-CsCommonAreaPhone cmdlet is called, along with the Filter parameter and the filter value {DisplayName -like "Building 14*"}.
-The filter value uses the -like operator and the wildcard string "Building 14*" to limit returned data to phones where the DisplayName property begins with "Building 14" (for example, "Building 14 Lobby", "Building 14 Cafeteria", etc.).
+To do this, the Get-CsCommonAreaPhone cmdlet is called, along with the Filter parameter and the filter value {DisplayName -like "Building 14<em>"}.
+The filter value uses the -like operator and the wildcard string "Building 14</em>" to limit returned data to phones where the DisplayName property begins with "Building 14" (for example, "Building 14 Lobby", "Building 14 Cafeteria", etc.).
 
 ### -------------------------- Example 4 --------------------------
 ```

@@ -40,7 +40,6 @@ Bandwidth policy profiles are applied to network sites by calling the New-CsNetw
 ```
 
 New-CsNetworkBandwidthPolicyProfile -Identity LowBWLimits -AudioBWLimit 2000 -AudioBWSessionLimit 200 -VideoBWLimit 1400 -VideoBWSessionLimit 500
-
 ```
 
 Example 1 creates a new bandwidth policy profile named LowBWLimits.

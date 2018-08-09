@@ -77,7 +77,6 @@ $x = Get-CsService -Registrar | Select-Object PoolFqdn
 foreach ($i in $x)
 
 {New-CsHealthMonitoringConfiguration -Identity $i.PoolFqdn -FirstTestUserSipUri "sip:kenmyer@litwareinc.com" -SecondTestUserSipUri "sip:pilar@litwareinc.com"}
-
 ```
 
 Example 2 creates a new collection of health monitoring configuration settings for all the Registrar pools in the organization.

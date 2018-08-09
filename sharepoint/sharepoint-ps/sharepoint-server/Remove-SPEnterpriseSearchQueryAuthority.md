@@ -41,7 +41,7 @@ This example removes the query authority URL http://contoso.com from the search 
 ### -Identity
 Specifies the query authority page to delete.
 
-The type must be a valid URL, in the form http://server_name; or an instance a valid AuthorityPage object.
+The type must be a valid URL, in the form <http://server_name>; or an instance a valid AuthorityPage object.
 
 ```yaml
 Type: AuthorityPagePipeBind

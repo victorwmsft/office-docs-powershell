@@ -43,7 +43,6 @@ The Import-CsLegacyConferenceDirectory cmdlet should also be run anytime the Mer
 ```
 
 Import-CsLegacyConferenceDirectory
-
 ```
 
 The command shown in Example 1 imports conferencing directories from Communications Server 2007 R2 to Skype for Business Server.

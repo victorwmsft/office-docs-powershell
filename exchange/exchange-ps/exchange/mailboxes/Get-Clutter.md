@@ -48,7 +48,6 @@ For example:
 - LegacyExchangeDN 
 - SamAccountName 
 - User ID or user principal name (UPN)
-
 ```yaml
 Type: MailboxIdParameter
 Parameter Sets: (All)

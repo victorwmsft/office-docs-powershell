@@ -29,7 +29,7 @@ PS C:\>$credential = Get-Credential
 PS C:\>Copy-SPTaxonomyGroups -LocalTermStoreName "Managed Metadata Service Application Proxy" -LocalSiteUrl "http://sharepoint" -RemoteSiteUrl "http://contoso.sharepoint.com" -GroupNames "Group1","Group2" -Credential $credential
 ```
 
-This example copies two taxonomy groups "Group1" and "Group2" from local Term Store to the remote Term Store in "http://contoso.com". These two sites have been enabled with Hybrid Taxonomy.
+This example copies two taxonomy groups "Group1" and "Group2" from local Term Store to the remote Term Store in "<http://contoso.com>". These two sites have been enabled with Hybrid Taxonomy.
 
 ## PARAMETERS
 

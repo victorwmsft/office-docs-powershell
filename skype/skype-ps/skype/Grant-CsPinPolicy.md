@@ -59,7 +59,6 @@ Calling the Grant-CsPinPolicy cmdlet and setting the policy name to a null value
 ```
 
 Get-CsUser -LdapFilter "l=Redmond" | Grant-CsPinPolicy -PolicyName RedmondUsersPinPolicy
-
 ```
 
 In Example 3, the policy RedmondUsersPinPolicy is assigned to all the users who work in the city of Redmond.

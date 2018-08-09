@@ -60,7 +60,7 @@ This example changes the description of the default file location for every Exce
 Specifies the FileLocation object to update.
 The name must be unique in the list of file locations.
 
-The type must be a valid GUID, in the form 12345678-90ab-cdef-1234-567890bcdefgh; a valid string identifying the file location, in the form http://myPortal/myTeam; a valid string identifying the path, in the form C:\folder_name; or an instance of a valid SPExcelFileLocation object.
+The type must be a valid GUID, in the form 12345678-90ab-cdef-1234-567890bcdefgh; a valid string identifying the file location, in the form <http://myPortal/myTeam>; a valid string identifying the path, in the form C:\folder_name; or an instance of a valid SPExcelFileLocation object.
 
 ```yaml
 Type: SPExcelFileLocationPipeBind
@@ -118,7 +118,7 @@ System.String
 
 Specifies a Web folder, or file directory from which Excel Services Application can load workbooks.
 
-The type must be a valid URL, in the form http://myPortal/myTeam; or a valid UNC path in form, \\\\server_name\folder_name
+The type must be a valid URL, in the form <http://myPortal/myTeam>; or a valid UNC path in form, \\\\server_name\folder_name
 
 ```yaml
 Type: String

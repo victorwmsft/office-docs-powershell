@@ -42,7 +42,7 @@ This example obtains a reference to a site demotion rule for the URL http://some
 ### -Identity
 Specifies the demoted site rule to delete.
 
-The type must be a valid GUID, in the form 12345678-90ab-cdef-1234-567890bcdefgh; a valid URL, in the form http://server_name; or an instance of a valid Demoted object.
+The type must be a valid GUID, in the form 12345678-90ab-cdef-1234-567890bcdefgh; a valid URL, in the form <http://server_name>; or an instance of a valid Demoted object.
 
 ```yaml
 Type: DemotedPipeBind

@@ -30,7 +30,7 @@ Set-SPServerScaleOutDatabaseDataSubRange -Database <SPDatabasePipeBind> -IsUpper
 ```
 
 ## DESCRIPTION
-This cmdlet contains more than one parameter set. You may only use parameters from one parameter set, and you may not combine parameters from different parameter sets. For more information about how to use parameter sets, see [Cmdlet Parameter Sets] (https://msdn.microsoft.com/library/dd878348(VS.85).aspx).
+This cmdlet contains more than one parameter set. You may only use parameters from one parameter set, and you may not combine parameters from different parameter sets. For more information about how to use parameter sets, see [Cmdlet Parameter Sets](https://msdn.microsoft.com/library/dd878348(VS.85).aspx).
 
 
 ## EXAMPLES
@@ -41,7 +41,6 @@ $databases = Get-SPServerScaleOutDatabase -ServiceApplication $serviceApplicatio
 $database = $databases[0]
 $state = Get-SPServerScaleOutDatabaseDataState -Database $database
 Set-SPServerScaleOutDatabaseDataSubRange -Database $database -Range $state.Range -SubRangePoint $state.Range.RangeEnd -SubRangeMode ReadOnly -IsUpperSubRange $false
-
 ```
 
 This example creates a read-only subrange that starts from the data range start point and ends at the data range end point on the first scale-out database of the specified service application.

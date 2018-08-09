@@ -150,7 +150,7 @@ Accept wildcard characters: False
 ### -SharePointUrl
 This parameter is available only in on-premises Exchange.
 
-The SharePointUrl parameter specifies the SharePoint URL where the site mailbox is hosted, for example, "https://myserver/teams/edu".
+The SharePointUrl parameter specifies the SharePoint URL where the site mailbox is hosted, for example, "<https://myserver/teams/edu>".
 
 You can't use this parameter with the Identity parameter.
 

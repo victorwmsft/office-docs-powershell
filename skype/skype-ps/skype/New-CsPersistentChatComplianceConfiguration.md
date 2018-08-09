@@ -45,7 +45,6 @@ Skype for Business Server Control Panel: The functions carried out by the New-Cs
 ### -------------------------- Example 1 -------------------------- 
 ```
 New-CsPersistentChatComplianceConfiguration -Identity "site:Redmond" -AddUserDetails $True -AddChatRoomDetails $True
-
 ```
 
 The command shown in Example 1 creates a new collection of Persistent Chat compliance configuration settings for the Redmond site.
@@ -55,7 +54,6 @@ In this example, both the AddUserDetails and the AddChatRoomDetails properties a
 ### -------------------------- Example 2 -------------------------- 
 ```
 New-CsPersistentChatComplianceConfiguration -Identity "site:Redmond" -RunInterval "00:30:00"
-
 ```
 
 Example 2 also demonstrates how to create a new collection of Persistent Chat compliance configuration settings for the Redmond site.

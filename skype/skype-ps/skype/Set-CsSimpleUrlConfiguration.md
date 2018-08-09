@@ -89,7 +89,7 @@ Set-CsSimpleUrlConfiguration -Identity "site:Redmond" -SimpleUrl @{Add=$simpleUr
 ```
 
 Example 2 shows how a new URL can be added to an existing collection of simple URLs.
-To begin with, the first command in the example uses the `New-CsSimpleUrlEntry` cmdlet to create a URL entry that points to https://meet.fabrikam.com; this URL entry is stored in a variable named $urlEntry.
+To begin with, the first command in the example uses the `New-CsSimpleUrlEntry` cmdlet to create a URL entry that points to <https://meet.fabrikam.com>; this URL entry is stored in a variable named $urlEntry.
 
 In the second command, the `New-CsSimpleUrl` cmdlet is used to create an in-memory-only instance of a simple URL.
 In this example, the URL Component is set to Meet; the domain is set to fabrikam.com; the ActiveUrl is set to https://meet.fabrikam.com and the SimpleUrl property is set to $urlEntry, with $urlEntry being the URL entry created in the first command.
@@ -110,10 +110,10 @@ Set-CsSimpleUrlConfiguration -Identity "site:Redmond" -SimpleUrl @{Remove=$simpl
 
 The commands shown in Example 3 demonstrate how you can delete a single URL from a simple URL collection.
 Because the `Set-CsSimpleUrlConfiguration` cmdlet needs to work with URL objects, the example starts by creating a new object that contains the exact same property values as the URL to be deleted.
-To do that, the first command uses the `New-CsSimpleUrlEntry` cmdlet to create a URL entry that points to https://meet.fabrikam.com; this URL entry is stored in a variable named $urlEntry.
+To do that, the first command uses the `New-CsSimpleUrlEntry` cmdlet to create a URL entry that points to <https://meet.fabrikam.com>; this URL entry is stored in a variable named $urlEntry.
 
 After the URL entry has been created, the second command uses the `New-CsSimpleUrl` cmdlet to create an in-memory instance of a simple URL.
-In this example, the URL Component is set to Meet; the domain is set to fabrikam.com; the ActiveUrl is set to https://meet.fabrikam.com; and the SimpleUrl property is set to $urlEntry, $urlEntry being the URL entry created in the first command.
+In this example, the URL Component is set to Meet; the domain is set to fabrikam.com; the ActiveUrl is set to <https://meet.fabrikam.com>; and the SimpleUrl property is set to $urlEntry, $urlEntry being the URL entry created in the first command.
 This creates an in-memory URL ($simpleUrl) that has the same property values as the URL to be deleted.
 
 The final command in the example then deletes the URL from the simple URL collection for the Redmond site.

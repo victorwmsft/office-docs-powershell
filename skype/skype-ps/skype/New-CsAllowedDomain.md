@@ -54,7 +54,6 @@ If you want to create a new federation relationship, you can use the New-CsAllow
 ```
 
 New-CsAllowedDomain -Identity "fabrikam.com"
-
 ```
 
 In Example 1, the domain fabrikam.com is added to the list of allowed domains.
@@ -65,7 +64,6 @@ Note that this command will fail if fabrikam.com is already on the allowed list 
 ```
 
 New-CsAllowedDomain -Identity "fabrikam.com" -ProxyFqdn "proxyserver.fabrikam.com" -MarkForMonitoring $True -Comment "Contact: Ken Myer (kenmyer@fabrikam.com)"
-
 ```
 
 Example 2 is a variation of the command shown in Example 1.

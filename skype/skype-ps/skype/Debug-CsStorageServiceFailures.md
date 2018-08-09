@@ -32,7 +32,7 @@ EndpointStatusDetail : StoreWebException: code=ErrorEwsAutodiscover, reason=GetU
 
 failed, smtpAddress=archcdruser0@vdomain.com, Autodiscover
 
-Uri=https://dc.vdomain.com/autodiscover/badautodiscover.svc, Autodiscover
+Uri=<https://dc.vdomain.com/autodiscover/badautodiscover.svc>, Autodiscover
 
 WebProxy=\<NULL\>, WebExceptionStatus=ProtocolError ---\>
 

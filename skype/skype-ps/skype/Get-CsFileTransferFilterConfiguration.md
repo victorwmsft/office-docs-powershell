@@ -54,7 +54,6 @@ Because identities must be unique, this command can never return more than one c
 ### -------------------------- Example 3 --------------------------
 ```
 Get-CsFileTransferFilterConfiguration -Filter site:*
-
 ```
 
 Example 3 uses the Filter parameter to return a collection of all the file transfer filter configurations at the site level.

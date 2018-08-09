@@ -57,49 +57,49 @@ The New-PnPSite cmdlet creates a new site collection for the current tenant. Cur
 New-PnPSite -Type CommunicationSite -Title Contoso -Url https://tenant.sharepoint.com/sites/contoso
 ```
 
-This will create a new Communications Site collection with the title 'Contoso' and the url 'https://tenant.sharepoint.com/sites/contoso'
+This will create a new Communications Site collection with the title 'Contoso' and the url '<https://tenant.sharepoint.com/sites/contoso>'
 
 ### ------------------EXAMPLE 2------------------
 ```powershell
 New-PnPSite -Type CommunicationSite -Title Contoso -Url https://tenant.sharepoint.com/sites/contoso -SiteDesign Showcase
 ```
 
-This will create a new Communications Site collection with the title 'Contoso' and the url 'https://tenant.sharepoint.com/sites/contoso'. It will use the 'Showcase' design for the site.
+This will create a new Communications Site collection with the title 'Contoso' and the url '<https://tenant.sharepoint.com/sites/contoso>'. It will use the 'Showcase' design for the site.
 
 ### ------------------EXAMPLE 3------------------
 ```powershell
 New-PnPSite -Type CommunicationSite -Title Contoso -Url https://tenant.sharepoint.com/sites/contoso -SiteDesignId ae2349d5-97d6-4440-94d1-6516b72449ac
 ```
 
-This will create a new Communications Site collection with the title 'Contoso' and the url 'https://tenant.sharepoint.com/sites/contoso'. It will use the specified custom site design for the site.
+This will create a new Communications Site collection with the title 'Contoso' and the url '<https://tenant.sharepoint.com/sites/contoso>'. It will use the specified custom site design for the site.
 
 ### ------------------EXAMPLE 4------------------
 ```powershell
 New-PnPSite -Type CommunicationSite -Title Contoso -Url https://tenant.sharepoint.com/sites/contoso -Classification "HBI"
 ```
 
-This will create a new Communications Site collection with the title 'Contoso' and the url 'https://tenant.sharepoint.com/sites/contoso'. The classification for the site will be set to "HBI"
+This will create a new Communications Site collection with the title 'Contoso' and the url '<https://tenant.sharepoint.com/sites/contoso>'. The classification for the site will be set to "HBI"
 
 ### ------------------EXAMPLE 5------------------
 ```powershell
 New-PnPSite -Type CommunicationSite -Title Contoso -Url https://tenant.sharepoint.com/sites/contoso -AllowFileSharingForGuestUsers
 ```
 
-This will create a new Communications Site collection with the title 'Contoso' and the url 'https://tenant.sharepoint.com/sites/contoso'. File sharing for guest users will be enabled.
+This will create a new Communications Site collection with the title 'Contoso' and the url '<https://tenant.sharepoint.com/sites/contoso>'. File sharing for guest users will be enabled.
 
 ### ------------------EXAMPLE 6------------------
 ```powershell
 New-PnPSite -Type TeamSite -Title Contoso -Alias contoso
 ```
 
-This will create a new Modern Team Site collection with the title 'Contoso' and the url 'https://tenant.sharepoint.com/sites/contoso'.
+This will create a new Modern Team Site collection with the title 'Contoso' and the url '<https://tenant.sharepoint.com/sites/contoso>'.
 
 ### ------------------EXAMPLE 7------------------
 ```powershell
 New-PnPSite -Type TeamSite -Title Contoso -Alias contoso -IsPublic
 ```
 
-This will create a new Modern Team Site collection with the title 'Contoso' and the url 'https://tenant.sharepoint.com/sites/contoso' and sets the site to public.
+This will create a new Modern Team Site collection with the title 'Contoso' and the url '<https://tenant.sharepoint.com/sites/contoso>' and sets the site to public.
 
 ## PARAMETERS
 

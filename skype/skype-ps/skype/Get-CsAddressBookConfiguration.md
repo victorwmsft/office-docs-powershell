@@ -107,8 +107,8 @@ Accept wildcard characters: False
 
 ### -Filter
 Enables you to use wildcard characters in order to return a collection (or multiple collections) of Address Book settings.
-For example, to return a collection of all the settings configured at the site scope, use this syntax: -Filter site:*.
-To return a collection of all the settings that have the string value "EMEA" somewhere in their Identity, use this syntax: -Filter *EMEA*.
+For example, to return a collection of all the settings configured at the site scope, use this syntax: -Filter site:<em>.
+To return a collection of all the settings that have the string value "EMEA" somewhere in their Identity, use this syntax: -Filter *EMEA</em>.
 
 ```yaml
 Type: String

@@ -31,7 +31,6 @@ Returns Access Services service applications available in the farm.
 
 PS C:\>$sa = Get-SPServiceApplication| ?{$_.TypeName -eq 'Access Services Web Service Application'}
 PS C:\>Get-SPAccessServicesApplication -Identity $sa
-
 ```
 Returns the Access Services application using a service application pipebind.
 

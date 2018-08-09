@@ -53,7 +53,6 @@ In this example, two changes are made to the default Mobility Service configurat
 ### -------------------------- EXAMPLE 2 -------------------------- 
 ```
 Get-CsService -WebServer | ForEach-Object {New-CsMcxConfiguration -Identity $_.Identity -ExposedWebURL Internal -SessionShortExpirationInterval 7200}
-
 ```
 
 In Example 2, an identical set of Mobility Service configuration settings is created for each Web server currently in use in an organization.

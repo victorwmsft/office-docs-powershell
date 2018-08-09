@@ -69,7 +69,6 @@ $x.ArchiveInternal = $True
 $x.ArchiveExternal = $True
 
 Set-CsArchivingPolicy -Instance $x
-
 ```
 
 Example 2 uses the InMemory parameter to create an archiving policy that initially exists only in memory.

@@ -80,7 +80,6 @@ In addition to the PrimaryUri parameter, the command also includes parameters th
 ### -------------------------- EXAMPLE 2 --------------------------
 ```
 New-CsDialInConferencingAccessNumber -PrimaryUri "sip:RedmondDialIn@litwareinc.com" -DisplayNumber "1-800-555-1234" -LineUri "tel:+18005551234" -Pool atl-cs-001.litwareinc.com -PrimaryLanguage "en-US" -Regions "Redmond" -SecondaryLanguages "fr-CA", "fr-FR"
-
 ```
 
 The command shown in Example 2 is a variation of the command shown in Example 1; the only difference is that the command shown in this example also assigns two secondary languages (French Canadian and French) to the new dial-in conferencing access number.

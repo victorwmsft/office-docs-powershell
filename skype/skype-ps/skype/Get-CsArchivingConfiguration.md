@@ -113,8 +113,8 @@ Accept wildcard characters: False
 
 ### -Filter
 Enables you to use wildcard characters in order to return a collection (or collections) of archiving configuration settings.
-To return a collection of all the settings configured at the site scope, use this syntax: -Filter site:*.
-To return a collection of all the settings that have the string value "Canada" somewhere in their Identity (the only property you can filter on) use this syntax: -Filter "*Canada*".
+To return a collection of all the settings configured at the site scope, use this syntax: -Filter site:<em>.
+To return a collection of all the settings that have the string value "Canada" somewhere in their Identity (the only property you can filter on) use this syntax: -Filter "</em>Canada*".
 
 ```yaml
 Type: String

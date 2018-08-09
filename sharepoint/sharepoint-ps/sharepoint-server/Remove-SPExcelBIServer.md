@@ -33,7 +33,6 @@ Excel Services.
 ### -----------------------EXAMPLE-----------------------------
 ```
 PS C:\>Remove-SPExcelBIServer -ExcelServiceApplication "MyExcel"
-
 ```
 
 This example removes the instance of the anaylsis services that uses the Excel Service Application named, "MyExcel".

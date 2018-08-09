@@ -8,7 +8,7 @@ schema: 2.0.0
 # New-CsTeamsMeetingPolicy
 
 ## SYNOPSIS
- The CsTeamsMeetingPolicy cmdlets enable administrators to control the type of meetings that users can create or the features that they can access while in a meeting. It also helps determine how meetings deal with anonymous or external users
+ The CsTeamsMeetingPolicy cmdlets enable administrators to control the type of meetings that users can create or the features that they can access while in a meeting. It also helps determine how meetings deal with anonymous or external users
  
 ## SYNTAX
 
