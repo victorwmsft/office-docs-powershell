@@ -72,7 +72,7 @@ What if there are no results?
     
   - You might have entered a cmdlet or parameter that isn't available in your environment. For example, when you enter an Exchange Online cmdlet or parameters in an on-premises Exchange 2016 environment.
     
-  Run the following command to find the role that contains the cmdlet or parameters. Be sure to replace `<Cmdlet>` and optionally, `<Parameter1>,<Parameter2>,...` with the actual cmdlet and parameter names you are interested in. Note that you can use wildcard characters (<em>) in the cmdlet and parameter names (for example, `</em>-Mailbox*`).
+  Run the following command to find the role that contains the cmdlet or parameters. Be sure to replace `<Cmdlet>` and optionally, `<Parameter1>,<Parameter2>,...` with the actual cmdlet and parameter names you are interested in. Note that you can use wildcard characters (\*) in the cmdlet and parameter names (for example, `*-Mailbox*`).
     
   ```
   Get-ManagementRoleEntry -Identity *\<Cmdlet>  [-Parameters <Parameter1>,<Parameter2>,... ]
